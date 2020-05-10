@@ -31,17 +31,17 @@ Quick writeup for Windows users who may want to develop or tweak Inkscape themes
 
 8. Right-click your Computer in Windows Explorer sidebar > click `Properties` > click `Advanced system settings` (on the left) > click `Environment Variables` > Select `Path` variable > click `Edit` > click `New` > type in `C:\Program Files\Dart Sass` > click OK in every dialog. This makes sure you will be able to use `sass` command in Command Prompt with no extra steps
 
-9. Create destination theme folders for your theme so Inkscape would recognize it at `C:\Program Files\Inkscape\share\themes\%YourThemeName%\GTK-3.0` or at `%UserProfile%\AppData\Local\Themes\%YourThemeName%\GTK-3.0\*.*`
+9. Create destination theme folders for your theme so Inkscape would recognize it at `C:\Program Files\Inkscape\share\themes\%YourThemeName%\GTK-3.0\*.*` or at `%UserProfile%\AppData\Local\Themes\%YourThemeName%\GTK-3.0\*.*`
 
 10. Copy assets folder from your working Adwaita folder to `C:\Program Files\Inkscape\share\themes\%YourThemeName%\GTK-3.0\assets` (or `%UserProfile%\AppData\Local\Themes\%YourThemeName%\GTK-3.0\assets`)
 
 10. Compile SCSS files of Adwaita using Command Prompt command (use right-click on folder > `Copy as path` to get paths):
-sass "%UserProfile\Documents\%YourThemeProjectFolder%\gtk.scss" "%ProgramFiles%\Inkscape\share\themes\%YourThemeName%\GTK-3.0\gtk.css"
+`sass "%UserProfile\Documents\%YourThemeProjectFolder%\gtk.scss" "%ProgramFiles%\Inkscape\share\themes\%YourThemeName%\GTK-3.0\gtk.css"`
 
-11. Run Inkscape and select `%YourThemeName%` in Preferences. It should look exactly as default theme.
+11. Run Inkscape and select `%YourThemeName%` in Preferences. It should look exactly as default theme
 
-12. Close Inkscape; modify SCSS files in `%YourThemeProjectFolder%` folder; recompile it using sass command from Command Prompt (press up arrow on keyboard); open Inkscape to see changes.
+12. Close Inkscape; modify SCSS files in `%YourThemeProjectFolder%` folder; recompile it using sass command from Command Prompt (press up arrow on keyboard); open Inkscape to see changes
 
-13. To test if everything is set up correctly, edit `common.scss` on line 15 and set theme to be `'compact'` (smaller buttons, etc.) — you should notice difference right away.
+13. To test if everything is set up correctly, edit `common.scss` on line 15 and set theme to be `'compact'` (smaller buttons, etc.) — you should notice difference right away
 
 **Reference:** [Inkscape Wiki Theming Help](http://wiki.inkscape.org/wiki/index.php/Release_notes/1.0#Theme_selection)
