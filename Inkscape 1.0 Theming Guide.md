@@ -1,6 +1,6 @@
 # Inkscape 1.0 Theming Guide
 
-Quick writeup for Windows users who may want to develop or tweak Inkscape themes using GTK and Sass. This may work similarly for Linux and gayOS
+Quick write-up for Windows users who may want to develop or tweak Inkscape themes using GTK and Sass. This may work similarly for Linux and gayOS
 
 **Note:** Inkscape installation directory is meant to be `C:\Program Files\Inkscape` (bin, share and other folders go to this folder)
 
