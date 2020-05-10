@@ -6,7 +6,7 @@
 
 **Description:** Quick essential fixes to default Adwaita GTK 3.24.14 theme to better match Windows 10 Light Mode
 
-**Bonus:** Compiled compact variation of Adwaita GTK 3.24.17 theme provided as a bonus (slimmer scrollbars, etc.)
+**Bonus:** Compiled compact variation of Adwaita GTK 3.24.17 default theme is provided as a bonus
 
 ![Preview](https://user-images.githubusercontent.com/17095595/81500319-ecbc7e00-92ea-11ea-9233-0aae1d264d80.PNG)
 
@@ -48,4 +48,4 @@
 
 **Licensing:** Feel free to redistribute, modify and include it in future releases of Inkscape
 
-**Download:** [GitHub](https://github.com/bananakid/inkscape-w10-gtk/)
+**Download:** [GitHub](https://github.com/bananakid/inkscape-w10-gtk/blob/master/Windows%2010%20Light%20Mode%20Theme%200.1%20for%20Inkscape%201.0.7z)
