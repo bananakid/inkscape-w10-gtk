@@ -15,22 +15,22 @@
 ![Preview](https://user-images.githubusercontent.com/17095595/81500317-eb8b5100-92ea-11ea-9e25-496f32b675ee.PNG)
 
 **Installation**
-1. Copy entire folder "Windows 10 Light Mode"
-   to folder "%ProgramFiles%\Inkscape\share\themes"
+1. Copy entire folder `Windows 10 Light Mode`
+   to folder `%ProgramFiles%\Inkscape\share\themes`
    or
-   to folder "%UserProfile%\AppData\Local\Themes"
-2. Launch Inkscape and select theme "Windows 10 Light Mode"
-   using menu "Edit > Preferences > Interface > Theme"
-   from drop-down menu under "Change GTK theme",
+   to folder `%UserProfile%\AppData\Local\Themes`
+2. Launch Inkscape and select theme `Windows 10 Light Mode`
+   using menu `Edit > Preferences > Interface > Theme`
+   from drop-down menu under `Change GTK theme`,
    then close and relauch Inkscape
 3. Optionally, specify icon settings to match previews using
-   "Edit > Preferences > Interface > Theme", "Icon theme" > "multicolor",
-   check "Use symbolic icons", uncheck "Use default colors for icons",
-   set main icons color to RGBA 343a40ff and all highlighs colors to 6d7881ff
+   `Edit > Preferences > Interface > Theme` > `Icon theme` > `multicolor`,
+   check `Use symbolic icons`, uncheck `Use default colors for icons`,
+   set main icons color to `RGBA 343a40ff` and all highlighs colors to `RGBA 6d7881ff`
 4. Optionally, install compact main toolbar and compact ruler 
-   configuration files (as seen in preview) by copying "style.css" 
-   and "toolbar-commands.ui" from "Toolbar & Ruler" folder 
-   to "%ProgramFiles%\Inkscape\share\inkscape\ui"
+   configuration files (as seen in preview) by copying `style.css` 
+   and `toolbar-commands.ui` from `Toolbar & Ruler` folder 
+   to `%ProgramFiles%\Inkscape\share\inkscape\ui`
    
 **Release Notes**
 - Theme is based on Adwaita GTK 3.24.14 theme's Sass source code
